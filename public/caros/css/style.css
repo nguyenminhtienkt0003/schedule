@@ -1,0 +1,110 @@
+body {
+	background:url("../img/background.png");
+}
+#chang-style {
+	font-weight: bold;
+	font-size: 20px;
+	color: red;
+	text-shadow: 0px 0px 7px blue;
+	font-family: sans-serif;
+}
+#demo {
+	background:linear-gradient(rgb(153, 100, 242), rgb(153, 228, 144));
+	width: 150px;
+}
+#demo .row-col {
+	color: red;
+	margin: 10px 0px 10px 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+#demo .row-col input {
+	padding: 3px 0px 3px 10px;
+	width: 40px;
+}
+p #row{
+	margin: 10px 0px 0px 30px;
+}
+p #col{
+	margin: 0px 0px 10px 45px;
+}
+#create {
+	padding: 5px 20px 5px 20px;
+}
+.cell {
+	width:40px;
+	height:40px;
+	text-align:center;
+}
+.cell:hover {
+	background:linear-gradient(rgb(133, 100, 142), rgb(123, 188, 144));
+}
+#msg {
+	color:red;
+	font-size:24px;
+	font-family:sans-serif;
+}
+#state {
+	width:250px;
+	height:100px;
+	color:rgb(13, 77, 89);
+	overflow:auto;
+	border:black solid 1px;
+	float:left;
+	margin:220px 200px 0px 0px;
+	background:linear-gradient(rgb(173, 200, 242), rgb(13, 98, 184));
+	font-weight:bold;
+	color: aqua;
+	padding-left: 20px;
+}
+#style-select {
+	width: 120px;
+	height: auto;
+	border-radius: 10px;
+	background: linear-gradient(rgb(255, 200, 142), rgb(13, 198, 184));
+}
+#style-select p {
+	color: purple;
+	font-weight: bold;
+}
+#style-select p:nth-child(2) img {
+	margin: 0px 5px 0px 5px;
+}
+#intro {
+	position: absolute;
+	margin: 0px 0px 0px 650px;
+	font-size: 50px;
+	font-family: 'monotype corsiva';
+	text-align: center;
+	color: rgb(110, 220, 150);
+	font-weight: bold;
+	text-shadow: 17px 17px 7px red;
+}
+table {
+	border:15px outset rgb(120, 100, 130);
+	background-color:gray;
+	margin-top: -200px;
+}
+table td {
+	cursor: pointer;
+}
+embed {
+	position: absolute;
+}
+#sad {
+	margin-left: 150px;
+}
+a {
+	animation-name: linkEffect;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	text-decoration: none;
+	font-weight: bold;
+}
+@keyframes linkEffect {
+	0% {color: red; transform: rotateY(0deg);}
+	25% {color: pink; transform: rotateY(90deg);}
+	50% {color: purple; transform: rotateY(180deg);}
+	75% {color: brown; transform: rotateY(270deg);}
+	100% {color: aqua; transform: rotateY(360deg);}
+}
